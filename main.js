@@ -66,10 +66,10 @@
   console.log(yescount, nocount, maybecount);
   
   
-let age = [16,23,14,24,19,]
+let age = [16,23,14,24,19, 18,]
 let underage =0;
 let overage = 0;
-for(let p=0; p<age.length;x++) {
+for(let p=0; p<age.length;p++) {
     if (age[p]< 18) {
         underage++;
     } else {
