@@ -107,7 +107,7 @@ console.log(prices3)
 
 let prices4 = [20, 40, 60, 30, 20, 10, 45, 80];
 for (let d = 0; d < prices4.length; d++) {
-    let A = prices4[d]*0.3
+    let A = prices4[d]*0.2
     prices4[d]-=A
 } 
 console.log(prices4)
